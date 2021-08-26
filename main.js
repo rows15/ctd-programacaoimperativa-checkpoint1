@@ -32,7 +32,7 @@ function fazerPrato(prato, tempo) {
       return exibirMensagem(MENSAGEM_EXPLODIU);
     }
   } else if (prato === MACARRAO) {
-    if (tempo > 2 * TEMPO_PADRAO_PIPOCA && tempo <= 3 * TEMPO_PADRAO_MACARRAO) {
+    if (tempo > 2 * TEMPO_PADRAO_MACARRAO && tempo <= 3 * TEMPO_PADRAO_MACARRAO) {
       return exibirMensagem(MENSAGEM_COMIDA_QUEIMOU);
     } else if (tempo < TEMPO_PADRAO_MACARRAO) {
       return exibirMensagem(MENSAGEM_TEMPO_INSUFICIENTE);
@@ -40,7 +40,7 @@ function fazerPrato(prato, tempo) {
       return exibirMensagem(MENSAGEM_EXPLODIU);
     }
   } else if (prato === CARNE) {
-    if (tempo > 2 * TEMPO_PADRAO_PIPOCA && tempo <= 3 * TEMPO_PADRAO_CARNE) {
+    if (tempo > 2 * TEMPO_PADRAO_CARNE && tempo <= 3 * TEMPO_PADRAO_CARNE) {
       return exibirMensagem(MENSAGEM_COMIDA_QUEIMOU);
     } else if (tempo < TEMPO_PADRAO_CARNE) {
       return exibirMensagem(MENSAGEM_TEMPO_INSUFICIENTE);
@@ -48,7 +48,7 @@ function fazerPrato(prato, tempo) {
       return exibirMensagem(MENSAGEM_EXPLODIU);
     }
   } else if (prato === FEIJAO) {
-    if (tempo > 2 * TEMPO_PADRAO_PIPOCA && tempo <= 3 * TEMPO_PADRAO_FEIJAO) {
+    if (tempo > 2 * TEMPO_PADRAO_FEIJAO && tempo <= 3 * TEMPO_PADRAO_FEIJAO) {
       return exibirMensagem(MENSAGEM_COMIDA_QUEIMOU);
     } else if (tempo < TEMPO_PADRAO_FEIJAO) {
       return exibirMensagem(MENSAGEM_TEMPO_INSUFICIENTE);
@@ -56,7 +56,7 @@ function fazerPrato(prato, tempo) {
       return exibirMensagem(MENSAGEM_EXPLODIU);
     }
   } else if (prato === BRIGADEIRO) {
-    if (tempo > 2 * TEMPO_PADRAO_PIPOCA && tempo <= 3 * TEMPO_PADRAO_BRIGADEIRO) {
+    if (tempo > 2 * TEMPO_PADRAO_BRIGADEIRO && tempo <= 3 * TEMPO_PADRAO_BRIGADEIRO) {
       return exibirMensagem(MENSAGEM_COMIDA_QUEIMOU);
     } else if (tempo < TEMPO_PADRAO_BRIGADEIRO) {
       return exibirMensagem(MENSAGEM_TEMPO_INSUFICIENTE);
